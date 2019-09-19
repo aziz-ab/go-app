@@ -1,4 +1,4 @@
-FROM golang
+FROM docker.io/golang
 RUN mkdir /app
 COPY main.go /app
 WORKDIR /app
